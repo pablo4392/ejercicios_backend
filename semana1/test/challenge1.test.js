@@ -1,4 +1,4 @@
-const { reverseString } = require("../task");
+const { reverseString } = require("../challenge1");
 
 describe("Ejercicio no. 1", () => {
     test("Debería de invertir el string hello world a dlrow olleh", () => {
