@@ -15,7 +15,7 @@
 
 Ejercicios lógicos Javascript, en los directorios semana1 ... semanaN viene la descripción de cada ejercicio bajo el nombre "challenge1.html ... challengeN.html"
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requerimientos ##
 
 ## :checkered_flag: Instalación ##
 
