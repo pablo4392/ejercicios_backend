@@ -1,7 +1,5 @@
 const reverseInt = (number) => {
-    let type = typeof number;
-
-    if(type !== 'number') {        
+    if(typeof number !== 'number') {        
         throw new Error('Tipo de dato no admitido.');
     } else if(number < 0) {
         const positive = number * -1;

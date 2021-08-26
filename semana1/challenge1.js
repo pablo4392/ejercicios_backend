@@ -1,10 +1,7 @@
 const reverseString = (str) => {
-    let type = typeof str;
-    let long = str.length;
-
-    if(type !== 'string') {
+    if(typeof str !== 'string') {
         throw new Error('Tipo de dato o longitud no admitidos.')
-    }else if(long > 15 || long <= 1) {
+    }else if(str.length > 15 || str.length <= 1) {
         throw new Error('Tipo de dato o longitud no admitidos.')
     } else{
         return str.split('').reverse().join('')
